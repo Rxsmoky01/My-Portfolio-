@@ -10,7 +10,7 @@
 body {
   font-family: 'Oswald', sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/Images/B-G/imgi_15_bg.png") center / cover no-repeat;
+    url("/Images/B-G/Photo.jpg") center / cover no-repeat;
   color: #fff;
   min-height: 100vh;
 }
@@ -27,7 +27,8 @@ body {
 .logo {
   color: #fff;
   font-size: 2rem;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }

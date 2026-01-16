@@ -1,0 +1,126 @@
+.bodyresume {
+    background: linear-gradient(rgb(0, 0, 0, 0.50), rgb(0, 0, 0, 0.50)), url(/Images/B-G/imgi_2_portfolio\ imgage2.jpg) center/cover no-repeat;
+}
+
+.main-resume {
+    margin: 0 60px;
+    padding: 0 18px;
+    min-height: 100vh;
+}
+
+.resume-title {
+    color: #7e02f3;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.resume-para {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    position: relative;
+    color: #fff;
+    background-color: #7e02f3;
+    border: 3px solid #7e02f3;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+.btn-custom:hover {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 10px #7e02f3;
+}
+
+.resume-card {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.resume-header h2 {
+    color: rgba(138, 28, 241);
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #0b0c10;
+    color: #fff;
+    border: 1px solid rgba(138, 28, 241);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+a {
+    color: #66fcf1;
+    text-decoration: none;
+}
+
+
+@media (max-width: 576px) {
+    .main-resume {
+        margin: 0 20px;
+        padding: 0 10px;
+    }
+
+    .resume-card {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .tag {
+        font-size: 12px;
+    }
+    .resume-para {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+}
+
+.ttcolor {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(138, 28, 241);
+}
+
+.tag:hover {
+    background-color: rgba(138, 28, 241);
+    color: #fff;
+    cursor: pointer;
+}
+
+.atags {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+u {
+    border-bottom: 5px solid rgba(138, 28, 241);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cantactnavs a:hover {
+    text-decoration: none;
+    border: none;
+}
